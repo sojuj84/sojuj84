@@ -1,3 +1,0 @@
-# NetScaler
-----
-## Table of Contents
