@@ -1,10 +1,11 @@
 # NetScaler
 ----
 ## Table of Contents
-1. Overview
-2. What is ADC
-3. Where it is Placed
-4. What it Does
+<!-- no toc -->
+1. [NetScaler ADC](#netscaler-adc)
+2. [What is ADC?](#what-is-adc)
+3. [Where is it placed?](#where-is-it-placed)
+4. [What does it do?](#what-does-it-do)
 
 ## NetScaler ADC
 NetScaler appliance is an application switch that efficiently analyses application-specific traffic to distribute, optimize, and secure Layer4-Layer7 (L4-L7) network traffic for web applications. It acts as a load balancer for each request slowing server failure and minimizing client disruptions.
