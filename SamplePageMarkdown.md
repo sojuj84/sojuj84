@@ -47,8 +47,12 @@ The following are the common network deployment modes:
 The following are the common physical deployment modes:
 
 1. **Inline or Two-arm mode:** The appliance is connected to different Ethernet segments using multiple network interfaces in two-arm mode. It can connect to the server network with one or more redundant interfaces, and the appliance and servers can be on separate subnets. Usually, virtual servers are configured to provide an abstraction of the real servers.
+![Image shows typical inline deployment](https://docs.netscaler.com/en-us/citrix-adc/media/two_arm_mode.png)
+
 
 2. **One-arm mode:** One network interface of the appliance is connected to an Ethernet Segment in one-arm mode. In this case, the client and server sides of the network are not isolated but are provided access to applications using virtual servers. One-arm mode can simplify network changes needed for NetScaler installation in some environments.
+![Image shows one arm mode](https://docs.netscaler.com/en-us/citrix-adc/media/1arm_public_public.png)
+
 
 ## What does it do?
 The NetScaler appliance is deployed before a server farm to function as a transparent TCP proxy between clients and servers. This does not require any client-side configuration and is called Request Switching technology. Request Switching enables an appliance to multiplex and offload the TCP connections, maintain persistent connections, and manage traffic at the request (application layer) level. This is possible because the appliance can separate the HTTP request from the TCP connection on which the request is delivered.
